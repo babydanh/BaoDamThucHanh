@@ -11,7 +11,7 @@ using System.IO;
 
 namespace ParabankAutoTests.Tests
 {
-    [Ignore("Đã test xong F2, tạm thời bỏ qua để chạy cái khác")]
+   
     public class Test_AccountsOverview
     {
         private IWebDriver driver;

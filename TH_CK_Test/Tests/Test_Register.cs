@@ -10,7 +10,7 @@ using System.IO;
 
 namespace ParabankAutoTests.Tests
 {
-    [Ignore("")]
+    //[Ignore("")]
     [TestFixture]
     public class Test_Register
     {
@@ -45,8 +45,7 @@ namespace ParabankAutoTests.Tests
 
             switch (testCase.TestID)
             {
-                case "TC_F1.1": // Đăng ký thành công
-                    // KỸ THUẬT DYNAMIC DATA: Tạo username ngẫu nhiên bằng thời gian thực để tránh trùng lặp
+                case "TC_F1.1":
                     string uniqueUser = "user_" + DateTime.Now.ToString("yyyyMMddHHmmss");
 
                     registerPage.FillRegistrationForm("Danh", "Nguyen", "123 Street", "HCM", "HCM", "70000", "0901234567", "12345", uniqueUser, "password123", "password123");

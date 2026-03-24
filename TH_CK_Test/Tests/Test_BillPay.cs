@@ -10,7 +10,7 @@ using System.IO;
 
 namespace ParabankAutoTests.Tests
 {
-    [Ignore("")]
+
     [TestFixture]
     public class Test_BillPay
     {
@@ -169,7 +169,7 @@ namespace ParabankAutoTests.Tests
 
             if (currentTestCase != null)
             {
-                ExcelHelper.UpdateTestResult(currentTestCase.TestID, result, actualResultText, "Danh", screenshotPath);
+                ExcelHelper.UpdateTestResult(currentTestCase.TestID, result, actualResultText, "Duy", screenshotPath);
             }
 
             if (driver != null)
