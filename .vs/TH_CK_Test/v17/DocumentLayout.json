@@ -1,0 +1,525 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dambaochatluong\\TH_CK_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_transferfunds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_transferfunds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_requestloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_opennewaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_opennewaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_findtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_findtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_billpay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_billpay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_accountsoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_accountsoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\tests\\test_authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\tests\\test_authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\transferfundspage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\transferfundspage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\accountsoverviewpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\accountsoverviewpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\opennewaccountpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\opennewaccountpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\billpaypage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\billpaypage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\findtransactionspage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\findtransactionspage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\requestloanpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\requestloanpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\adminpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\adminpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\registerpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\registerpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\testdata\\loginpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\testdata\\loginpage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\findtransactionspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\findtransactionspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\requestloanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\requestloanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\accountsoverviewpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\accountsoverviewpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\billpaypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\billpaypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\opennewaccountpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\opennewaccountpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\pages\\transferfundspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\pages\\transferfundspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\utils\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\utils\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\models\\testcasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\models\\testcasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\utils\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\utils\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|d:\\dambaochatluong\\th_ck_test\\th_ck_test\\th_ck_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D70110CD-E2B2-4593-AEA3-27C9CF6102B6}|TH_CK_Test\\TH_CK_Test.csproj|solutionrelative:th_ck_test\\th_ck_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Test_AccountsOverview.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_AccountsOverview.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_AccountsOverview.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_AccountsOverview.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_AccountsOverview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:48:06.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test_OpenNewAccount.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_OpenNewAccount.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_OpenNewAccount.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_OpenNewAccount.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_OpenNewAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:41:21.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\LoginPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\LoginPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\LoginPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:52:00.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Test_AdminPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_AdminPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_AdminPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_AdminPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_AdminPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:47:27.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Test_BillPay.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_BillPay.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_BillPay.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_BillPay.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_BillPay.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:44:31.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Test_FindTransactions.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_FindTransactions.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_FindTransactions.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_FindTransactions.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_FindTransactions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:02:48.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test_Register.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_Register.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_Register.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_Register.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:53:57.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test_RequestLoan.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_RequestLoan.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_RequestLoan.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_RequestLoan.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_RequestLoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:09:00.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test_TransferFunds.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_TransferFunds.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_TransferFunds.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_TransferFunds.cs*",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_TransferFunds.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:51:44.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Test_Authentication.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_Authentication.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Tests\\Test_Authentication.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Tests\\Test_Authentication.cs",
+              "RelativeToolTip": "TH_CK_Test\\Tests\\Test_Authentication.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwJ4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:52:13.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransferFundsPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\TransferFundsPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\TransferFundsPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\TransferFundsPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\TransferFundsPage.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T09:03:10.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountsOverviewPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\AccountsOverviewPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\AccountsOverviewPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\AccountsOverviewPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\AccountsOverviewPage.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T06:11:00.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OpenNewAccountPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\OpenNewAccountPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\OpenNewAccountPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\OpenNewAccountPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\OpenNewAccountPage.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T08:58:35.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BillPayPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\BillPayPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\BillPayPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\BillPayPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\BillPayPage.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T09:13:19.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FindTransactionsPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\FindTransactionsPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\FindTransactionsPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\FindTransactionsPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\FindTransactionsPage.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T09:03:25.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestLoanPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\RequestLoanPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\RequestLoanPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\RequestLoanPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\RequestLoanPage.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T12:12:38.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\AdminPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\AdminPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\AdminPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\AdminPage.json",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T08:58:32.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\RegisterPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\RegisterPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\RegisterPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\RegisterPage.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T09:02:41.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPage.json",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\LoginPage.json",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TestData\\LoginPage.json",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TestData\\LoginPage.json",
+              "RelativeToolTip": "TH_CK_Test\\TestData\\LoginPage.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T08:58:34.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FindTransactionsPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\FindTransactionsPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\FindTransactionsPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\FindTransactionsPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\FindTransactionsPage.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:20:41.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BillPayPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\BillPayPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\BillPayPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\BillPayPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\BillPayPage.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:44:21.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RequestLoanPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\RequestLoanPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\RequestLoanPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\RequestLoanPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\RequestLoanPage.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:19:10.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountsOverviewPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\AccountsOverviewPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\AccountsOverviewPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\AccountsOverviewPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\AccountsOverviewPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:47:23.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\AdminPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\AdminPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\AdminPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\AdminPage.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:48:02.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OpenNewAccountPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\OpenNewAccountPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\OpenNewAccountPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\OpenNewAccountPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\OpenNewAccountPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:41:06.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegisterPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\RegisterPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\RegisterPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\RegisterPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\RegisterPage.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:53:43.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TransferFundsPage.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\TransferFundsPage.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Pages\\TransferFundsPage.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Pages\\TransferFundsPage.cs",
+              "RelativeToolTip": "TH_CK_Test\\Pages\\TransferFundsPage.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:51:32.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ExcelHelper.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Utils\\ExcelHelper.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Utils\\ExcelHelper.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Utils\\ExcelHelper.cs",
+              "RelativeToolTip": "TH_CK_Test\\Utils\\ExcelHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:08:18.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TestCaseModel.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Models\\TestCaseModel.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Models\\TestCaseModel.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Models\\TestCaseModel.cs",
+              "RelativeToolTip": "TH_CK_Test\\Models\\TestCaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:46:33.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JsonReader.cs",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Utils\\JsonReader.cs",
+              "RelativeDocumentMoniker": "TH_CK_Test\\Utils\\JsonReader.cs",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\Utils\\JsonReader.cs",
+              "RelativeToolTip": "TH_CK_Test\\Utils\\JsonReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:46:48.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TH_CK_Test.csproj",
+              "DocumentMoniker": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TH_CK_Test.csproj",
+              "RelativeDocumentMoniker": "TH_CK_Test\\TH_CK_Test.csproj",
+              "ToolTip": "D:\\dambaochatluong\\TH_CK_Test\\TH_CK_Test\\TH_CK_Test.csproj",
+              "RelativeToolTip": "TH_CK_Test\\TH_CK_Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T03:45:37.908Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
