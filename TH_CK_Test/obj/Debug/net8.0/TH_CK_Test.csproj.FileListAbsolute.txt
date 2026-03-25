@@ -113,6 +113,7 @@ D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.GeneratedMS
 D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.AssemblyInfoInputs.cache
 D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.AssemblyInfo.cs
 D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.csproj.CoreCompileInputs.cache
+D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.sourcelink.json
 D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.csproj.Up2Date
 D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\TH_CK_Test.dll
 D:\dambaochatluong\TH_CK_Test\TH_CK_Test\obj\Debug\net8.0\refint\TH_CK_Test.dll

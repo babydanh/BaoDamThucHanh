@@ -4,55 +4,129 @@
         "Module": "F4. Transfer Funds",
         "TestName": "Chuyển tiền thành công nội bộ",
         "Action": "Nhập số tiền hợp lệ, chọn tài khoản nguồn, đích và Click Transfer",
-        "ExpectedResult": "Thông báo chuyển khoản thành công"
+        "ExpectedResult": "Thông báo chuyển khoản thành công",
+        "Amount": "50",
+        "FromIndex": 0,
+        "ToIndex": 1
     },
     {
         "TestID": "TC_F4.2",
         "Module": "F4. Transfer Funds",
         "TestName": "Chuyển toàn bộ số dư tài khoản",
         "Action": "Nhập chính xác số dư hiện có và Click Transfer",
-        "ExpectedResult": "Thành công, số dư tài khoản nguồn = 0"
+        "ExpectedResult": "Thành công, số dư tài khoản nguồn = 0",
+        "Amount": "100",
+        "FromIndex": 0,
+        "ToIndex": 1
     },
     {
         "TestID": "TC_F4.3",
         "Module": "F4. Transfer Funds",
         "TestName": "Lỗi chuyển tiền bằng 0 hoặc số âm",
         "Action": "Nhập vào ô Amount giá trị 0 hoặc số âm (-50)",
-        "ExpectedResult": "Chặn thao tác"
+        "ExpectedResult": "Chặn thao tác",
+        "Amount": "-50",
+        "FromIndex": 0,
+        "ToIndex": 1
     },
     {
         "TestID": "TC_F4.4",
         "Module": "F4. Transfer Funds",
         "TestName": "Nhập số tiền ký tự chữ/đặc biệt",
         "Action": "Nhập chữ cái hoặc ký tự đặc biệt vào ô Amount",
-        "ExpectedResult": "Hệ thống cảnh báo định dạng"
+        "ExpectedResult": "Hệ thống cảnh báo định dạng",
+        "Amount": "abc",
+        "FromIndex": 0,
+        "ToIndex": 1
+    },
+    {
+        "TestID": "TC_F4.5",
+        "Module": "F4. Transfer Funds",
+        "TestName": "Thông báo hoàn tất giao dịch rõ ràng",
+        "Action": "Quan sát màn hình kết quả sau khi chuyển khoản thành công",
+        "ExpectedResult": "Hiển thị đúng số tiền và 2 mã Account ID liên quan",
+        "Amount": "10",
+        "FromIndex": 0,
+        "ToIndex": 1
     },
     {
         "TestID": "TC_F4.6",
         "Module": "F4. Transfer Funds",
         "TestName": "Chuyển số tiền vượt Available Amount",
         "Action": "Nhập Amount lớn hơn số dư và Click Transfer",
-        "ExpectedResult": "Hệ thống chặn và báo lỗi Insufficient funds"
+        "ExpectedResult": "Hệ thống chặn và báo lỗi Insufficient funds",
+        "Amount": "500",
+        "FromIndex": 0,
+        "ToIndex": 1
     },
     {
         "TestID": "TC_F4.7",
         "Module": "F4. Transfer Funds",
         "TestName": "Chuyển tiền với From Acc trùng To Acc",
         "Action": "Chọn dropdown From Account và To Account giống nhau và Click Transfer",
-        "ExpectedResult": "Báo lỗi không thể chuyển tiền cho chính mình"
+        "ExpectedResult": "Báo lỗi không thể chuyển tiền cho chính mình",
+        "Amount": "10",
+        "FromIndex": 0,
+        "ToIndex": 0
     },
     {
         "TestID": "TC_F4.8",
         "Module": "F4. Transfer Funds",
         "TestName": "Bỏ trống trường Amount",
         "Action": "Để trống ô Amount và Click Transfer",
-        "ExpectedResult": "Focus lỗi yêu cầu điền số tiền"
+        "ExpectedResult": "Focus lỗi yêu cầu điền số tiền",
+        "Amount": "",
+        "FromIndex": 0,
+        "ToIndex": 1
+    },
+    {
+        "TestID": "TC_F4.9",
+        "Module": "F4. Transfer Funds",
+        "TestName": "Nhập Amount có nhiều hơn 2 chữ số thập phân",
+        "Action": "Nhập số liệu vào ô Amount (VD: 10.555) và Click Transfer",
+        "ExpectedResult": "Báo lỗi định dạng tiền tệ hoặc tự làm tròn",
+        "Amount": "10.555",
+        "FromIndex": 0,
+        "ToIndex": 1
+    },
+    {
+        "TestID": "TC_F4.10",
+        "Module": "F4. Transfer Funds",
+        "TestName": "Nhập Amount số cực lớn (Long max value)",
+        "Action": "Nhập một dãy số rất dài vào ô Amount (999999999)",
+        "ExpectedResult": "Từ chối do vượt hạn mức",
+        "Amount": "999999999",
+        "FromIndex": 0,
+        "ToIndex": 1
     },
     {
         "TestID": "TC_F4.11",
         "Module": "F4. Transfer Funds",
         "TestName": "Thử XSS injection vào ô Amount",
         "Action": "Dán mã script <script>alert(1)</script> vào ô Amount và Click Transfer",
-        "ExpectedResult": "Mã độc không chạy, báo lỗi định dạng số"
+        "ExpectedResult": "Mã độc không chạy, báo lỗi định dạng số",
+        "Amount": "<script>alert(1)</script>",
+        "FromIndex": 0,
+        "ToIndex": 1
+    },
+    {
+        "TestID": "TC_F4.12",
+        "Module": "F4. Transfer Funds",
+        "TestName": "Nhập khoảng trắng vào ô Amount",
+        "Action": "Gõ phím Space nhiều lần vào ô Amount",
+        "ExpectedResult": "Báo lỗi require (sau khi trim)",
+        "Amount": "   ",
+        "FromIndex": 0,
+        "ToIndex": 1
+    },
+    {
+        "TestID": "TC_F4.13",
+        "Module": "F4. Transfer Funds",
+        "TestName": "Xác minh lịch sử giao dịch ở cả 2 đầu",
+        "Action": "Mở trang Account Details của TK nguồn và TK đích sau khi chuyển",
+        "ExpectedResult": "Hiển thị record Debit (-) ở TK nguồn và Credit (+) ở TK đích",
+        "Amount": "20",
+        "FromIndex": 0,
+        "ToIndex": 1
     }
 ]

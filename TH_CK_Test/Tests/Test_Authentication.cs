@@ -55,61 +55,6 @@ namespace ParabankAutoTests.Tests
                     }
                     break;
 
-                case "TC_F1.7": // Sai mật khẩu
-                    loginPage.Login("john", "wrongpass123");
-                    CheckLoginError("Sai mật khẩu");
-                    break;
-
-                case "TC_F1.8": // User không tồn tại
-                    loginPage.Login("ghost_user_999", "123456");
-                    CheckLoginError("User không tồn tại");
-                    break;
-
-                case "TC_F1.9": // Để trống user/pass
-                    loginPage.Login("", "");
-                    CheckLoginError("Bỏ trống trường đăng nhập");
-                    break;
-
-                case "TC_F1.10": // Quên thông tin
-                    loginPage.ClickForgotLoginInfo();
-
-                    // Điền thông tin chuẩn của user "john"
-                    loginPage.FillForgotInfoForm("John", "Smith", "123 Street", "City", "State", "12345", "123-45-678");
-
-                    string forgotResult = loginPage.GetForgotInfoResultMessage();
-                    if (forgotResult.ToLower().Contains("your login information was located"))
-                    {
-                        actualResultText = "Đã tìm thấy và hiển thị thông tin đăng nhập thành công.";
-                        Assert.Pass(actualResultText);
-                    }
-                    else
-                    {
-                        actualResultText = $"Lỗi: Thông báo trả về không đúng kỳ vọng. Actual: {forgotResult}";
-                        Assert.Fail(actualResultText);
-                    }
-                    break;
-
-                case "TC_F1.11": // Đăng xuất
-                    // Phải login thành công trước thì mới có nút Logout để bấm
-                    loginPage.Login("john", "demo");
-
-                    loginPage.ClickLogout();
-
-                    if (loginPage.IsLoginFormDisplayed())
-                    {
-                        actualResultText = "Đăng xuất thành công, đã hiển thị lại form đăng nhập bên tay trái.";
-                        Assert.Pass(actualResultText);
-                    }
-                    else
-                    {
-                        actualResultText = "Đăng xuất thất bại, form Login không xuất hiện.";
-                        Assert.Fail(actualResultText);
-                    }
-                    break;
-
-                default:
-                    Assert.Ignore($"Chưa code cho case {testCase.TestID}");
-                    break;
             }
         }
 

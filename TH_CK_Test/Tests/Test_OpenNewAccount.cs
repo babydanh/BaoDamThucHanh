@@ -13,7 +13,7 @@ using TH_CK_Test.Pages;
 
 namespace ParabankAutoTests.Tests
 {
-    [Ignore("")]
+    //[Ignore("")]
     public class Test_OpenNewAccount
     {
         private IWebDriver driver;

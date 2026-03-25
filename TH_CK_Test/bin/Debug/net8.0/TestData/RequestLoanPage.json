@@ -3,35 +3,110 @@
         "TestID": "TC_F9.1",
         "Module": "F9. Request Loan",
         "TestName": "Yêu cầu vay với số tiền nhỏ, cọc cao (Từ chối)",
-        "Action": "Nhập Down Payment lớn hơn số dư của tài khoản nguồn và Click Apply Now",
-        "ExpectedResult": "Hệ thống từ chối do không đủ tiền trả cọc"
+        "Action": "Nhập Loan Amount hợp lệ, Down Payment lớn hơn số dư hiện tại và Click Apply Now",
+        "ExpectedResult": "Hệ thống từ chối khoản vay do không đủ tiền trả cọc",
+        "LoanAmount": "1000",
+        "DownPayment": "500",
+        "FromIndex": 0
     },
     {
         "TestID": "TC_F9.2",
         "Module": "F9. Request Loan",
         "TestName": "Yêu cầu vay bị từ chối do số tiền vay quá lớn",
-        "Action": "Nhập số tiền vay lớn bất thường và Click Apply Now",
-        "ExpectedResult": "Hệ thống từ chối duyệt khoản vay này"
+        "Action": "Nhập số tiền vay lớn bất thường (VD: 9999999) và Click Apply Now",
+        "ExpectedResult": "Hệ thống từ chối duyệt khoản vay này",
+        "LoanAmount": "9999999",
+        "DownPayment": "100",
+        "FromIndex": 0
     },
     {
         "TestID": "TC_F9.3",
         "Module": "F9. Request Loan",
-        "TestName": "Kiểm tra tài khoản nhận tiền vay",
-        "Action": "Lấy số New Account ID ở màn hình kết quả và Click vào xem chi tiết",
-        "ExpectedResult": "Thấy khoản tiền vay đã được cộng vào Balance"
+        "TestName": "Kiểm tra tài khoản nhận tiền vay (Happy Path)",
+        "Action": "Apply khoản vay hợp lệ. Sau đó lấy số New Account ID ở màn hình kết quả và click xem chi tiết",
+        "ExpectedResult": "Khoản vay được duyệt (Approved) và tạo tài khoản mới thành công",
+        "LoanAmount": "1000",
+        "DownPayment": "100",
+        "FromIndex": 0
     },
     {
         "TestID": "TC_F9.4",
         "Module": "F9. Request Loan",
         "TestName": "Cố ý nhập Down Payment là số âm",
-        "Action": "Nhập vào ô Down Payment một số âm và Click Apply Now",
-        "ExpectedResult": "Báo lỗi giá trị số tiền không hợp lệ"
+        "Action": "Nhập vào ô Down Payment một số âm (-100) và Click Apply Now",
+        "ExpectedResult": "Hệ thống báo lỗi giá trị số tiền không hợp lệ",
+        "LoanAmount": "1000",
+        "DownPayment": "-100",
+        "FromIndex": 0
     },
     {
         "TestID": "TC_F9.5",
         "Module": "F9. Request Loan",
         "TestName": "Cố ý bỏ trống ô Loan Amount",
         "Action": "Bỏ trống hoàn toàn ô Loan Amount và Click Apply Now",
-        "ExpectedResult": "Focus báo lỗi vào ô bị trống"
+        "ExpectedResult": "Hệ thống chặn submit và báo lỗi yêu cầu nhập liệu",
+        "LoanAmount": "",
+        "DownPayment": "100",
+        "FromIndex": 0
+    },
+    {
+        "TestID": "TC_F9.6",
+        "Module": "F9. Request Loan",
+        "TestName": "Yêu cầu vay với tiền cọc (Down Payment) LỚN HƠN tiền vay",
+        "Action": "Nhập Down Payment (1000) lớn hơn Loan Amount (500) và Click Apply Now",
+        "ExpectedResult": "Báo lỗi logic hoặc từ chối do cọc lớn hơn vay",
+        "LoanAmount": "500",
+        "DownPayment": "1000",
+        "FromIndex": 0
+    },
+    {
+        "TestID": "TC_F9.7",
+        "Module": "F9. Request Loan",
+        "TestName": "Yêu cầu vay với Loan Amount là số ÂM",
+        "Action": "Nhập số âm (-5000) vào ô Loan Amount và Click Apply Now",
+        "ExpectedResult": "Báo lỗi định dạng số tiền",
+        "LoanAmount": "-5000",
+        "DownPayment": "10",
+        "FromIndex": 0
+    },
+    {
+        "TestID": "TC_F9.8",
+        "Module": "F9. Request Loan",
+        "TestName": "Bỏ trống hoàn toàn ô tiền cọc (Down Payment)",
+        "Action": "Nhập Loan Amount hợp lệ, bỏ trống ô Down Payment và Click Apply Now",
+        "ExpectedResult": "Hệ thống chặn submit và báo lỗi",
+        "LoanAmount": "1000",
+        "DownPayment": "",
+        "FromIndex": 0
+    },
+    {
+        "TestID": "TC_F9.9",
+        "Module": "F9. Request Loan",
+        "TestName": "Nhập chữ cái vào các trường tiền tệ",
+        "Action": "Nhập chữ cái ('abc', 'xyz') vào ô Loan Amount và Down Payment",
+        "ExpectedResult": "Hệ thống báo lỗi định dạng số không hợp lệ",
+        "LoanAmount": "abc",
+        "DownPayment": "xyz",
+        "FromIndex": 0
+    },
+    {
+        "TestID": "TC_F9.10",
+        "Module": "F9. Request Loan",
+        "TestName": "Xin vay với số tiền khổng lồ gây tràn bộ nhớ",
+        "Action": "Nhập chuỗi số dài kỷ lục vào Loan Amount (VD: 99999999999999) và Click Apply Now",
+        "ExpectedResult": "Hệ thống báo lỗi vượt quá giới hạn hệ thống",
+        "LoanAmount": "99999999999999999",
+        "DownPayment": "100",
+        "FromIndex": 0
+    },
+    {
+        "TestID": "TC_F9.11",
+        "Module": "F9. Request Loan",
+        "TestName": "Thử Inject XSS vào ô Xin vay",
+        "Action": "Nhập thẻ HTML chứa Script vào ô Loan Amount và Click Apply",
+        "ExpectedResult": "Web mã hóa ký tự (Encode), chặn mã độc chạy",
+        "LoanAmount": "<script>alert(1)</script>",
+        "DownPayment": "100",
+        "FromIndex": 0
     }
 ]
